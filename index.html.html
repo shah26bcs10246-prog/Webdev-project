@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <div class="head">
+            <div class="img">
+                <img src="logo.png" alt="Logo" class="logo">
+            </div>
+            <nav>
+                <div class="wrap" id="wrap">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="hero" id="home">
+        <div class="card">
+            <img src="Myphoto.jpeg" alt="profile-photo" class="profile-pic">
+            <div class="info">
+                <h1>Shasan Shah</h1>
+                <p>I am a first-year undergraduate student at Scaler School of Technology, currently exploring and
+                    learning web development. I have a strong interest in sports like cricket and volleyball and also i
+                    love to dance. I'm beginner in coding but also having fun in experiencing new things.</p>
+                    <button>
+                        <a href="#projects">View my projects</a>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="social-bar">
+                <a href="https://www.linkedin.com/in/shasan-shah-38709042a?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://www.instagram.com/shasanshah58?stkn=M2t5dzBhZWk3bTZp&utm_source=qr " target="_blank"
+            rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        
+            <a href="https://github.com/shah26bcs10246-prog" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            
+            <a href="mailto:shah.26bcs10246@sst.scaler.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-at"></i>
+            </a>
+            
+            <a href="tel:+91-7096278903">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+    
+    <hr class="fade-line" id="about">
+    
+    <div class="aboutme">
+        <h1>About me</h1>
+    </div>
+    <div class="para">
+        <p>
+            I'm an undergraduate student at Scaler School of Technology, currently in the early stages of my coding
+            journey. While I'm still a beginner, I'm genuinely enjoying the process of learning to code and exploring
+            web development, and that curiosity keeps pushing me to build and learn more. Outside academics, I scored
+            97.3 percentile in JEE Mains and 92.4% in my boards. Beyond tech, I have a strong passion for sports and
+            dance, and I also enjoy being in front of the camera — whether it's shooting content or acting.
+        </p>
+        <div class="skills">
+            "Skills: "
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>Javascript</button>
+            <button>Java</button>
+        </div>
+    </div>
+
+    <hr class="fade-line" id="projects">
+    
+    <div class="titleproject">
+        <h1>Projects</h1>
+    </div>
+    <div class="projectpara">
+        <p>This portfolio features projects exploring a range of web development concepts. Highlights include a movie list built with HTML table, a weather forcast page which includes use of flexbox, a loading icon animation using CSS transitions, animations, and transforms, plus a to-do list using checkbox and flexbox. Beyond these, I have developed numerous projects involving HTML forms, tables, and lists. All projects are neatly aligned using display properties like Grid and Flexbox. Additionally, I have applied media queries to ensure responsiveness across different screen sizes. The current webpage itself demonstrates extensive use of Flexbox, Grid, and media queries to deliver a clean, adaptive layout.</p>
+    </div>
+    <div class="Projects">
+        <div class="container">
+            <img src="./movielist.png" alt="movie-list_image">
+            <div class="des">
+                <h2>My favourite Movies</h2>
+                <p>A simple table listing your favorite movies — title, year, one-line note — using an HTML table where I Used table tags alternating row background color for readability , minimal borders.</p>
+            </div>
+        </div>
+        <div class="container">
+        <img src="./weather.png" alt="weather-forcast">
+        <div class="des">
+            <h2>Wheather-Forcast</h2>
+            <p>A simple weather dashboard showing the current temperature, weather condition, and weekly forecast. I used
+            HTML headings, paragraphs & div sections
+            Weather emojis for icons, CSS for fonts, borders, spacing and sizing, Flexbox to arrange forecast cards, Basic card layout and alignment</p>
+        </div>
+    </div>
+    <div class="container">
+        <video src="./loading_animation_fixed.mp4" autoplay loop muted playsinline alt="Loading-animation"></video>
+        <div class="des">
+            <h2>Loading animation</h2>
+            <p>A simple loading screen with a loading element that can be used while a webpage is loading. I used HTML div elements for the loading structure, CSS border to create the loading circle, CSS border-radius for the circular shape, CSS animation and @keyframes for the spinning effect, Basic alignment and spacing</p>
+        </div>
+    </div>
+    <div class="container">
+        <img src="./todolist.png" alt="to-do-list_image">
+            <divclass="des">
+                <h2>To Do List</h2>
+                <p>A single container with a heading and a list of items each showing a checkbox and text label — I Used ul/li or div rows, input[type="checkbox"], Flexbox to align checkbox and text on one line, basic padding between list items and a bottom border to separate them.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="fade-line"> 
+    
+    <div id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p class="tagline">Let's  Connect</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" rows="5" placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+            <p>Mail:
+                shasanshah999@gmail.com
+            </p>
+            <p>
+                "LinkedIn - "
+                <a href="https://www.linkedin.com/in/shasan-shah-38709042a?utm_source=share_via&utm_content=profile&utm_medium=member_ios">LinkedIn</a>
+                "Instagram - "
+                <a href="https://www.instagram.com/shasanshah58?stkn=M2t5dzBhZWk3bTZp&utm_source=qr">Instagram</a>
+            </p>
+            <p>
+                Mobile: =91 7096278903
+            </p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>
+            <i class="fa-regular fa-copyright"></i>
+            2026 Shasan. All rights reserved.
+               
+        </p>
+    </footer>
+</main>
+</body>
+
+</html>
